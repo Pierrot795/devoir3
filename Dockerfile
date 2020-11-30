@@ -8,4 +8,4 @@ ENTRYPOINT ["/wait-for-it.sh", "db:5432", "--"]
 
 COPY manager /managercopy
 
-CMD [python -m managercopy]
+CMD ["python3","python -m /managercopy"]
